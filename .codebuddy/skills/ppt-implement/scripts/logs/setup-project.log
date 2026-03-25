@@ -1,0 +1,12 @@
+[2026-03-25 09:19:06] [INFO] ==== setup-project.js =====
+[2026-03-25 09:19:06] [DEBUG] [PPT Setup] stdin 数据: {"session_id":"2036702202711355392","transcript_path":"/root/.codebuddy/projects/workspace/2036702202711355392.jsonl","cwd":"/workspace","hook_event_name":"PreToolUse","tool_name":"Skill","tool_input":{"args":"clone https://github.com/mtycz/zp.git /workspace --depth 1 --single-branch","skill":"github-connector"},"client":"CLI","version":"2.63.4","generation_id":"7b2a2a88860742aab8352cd93698536c","model":"glm-5.0"}
+[2026-03-25 09:19:06] [INFO] [PPT Setup] skill: github-connector
+[2026-03-25 09:19:06] [INFO] [PPT Setup] 跳过: skill 是 "github-connector"，不是 "ppt-implement"
+[2026-03-25 15:10:44] [INFO] ==== setup-project.js =====
+[2026-03-25 15:10:44] [DEBUG] [PPT Setup] stdin 数据: {"session_id":"2036702202711355392","transcript_path":"/root/.codebuddy/projects/workspace/2036702202711355392.jsonl","cwd":"/workspace","hook_event_name":"PreToolUse","tool_name":"Skill","tool_input":{"skill":"prototype-implement"},"client":"CLI","version":"2.63.4","generation_id":"d312e59f9f8f456fa23969d3b4fbd959","model":"glm-5.0"}
+[2026-03-25 15:10:44] [INFO] [PPT Setup] skill: prototype-implement
+[2026-03-25 15:10:44] [INFO] [PPT Setup] 跳过: skill 是 "prototype-implement"，不是 "ppt-implement"
+[2026-03-25 15:11:16] [INFO] ==== setup-project.js =====
+[2026-03-25 15:11:16] [DEBUG] [PPT Setup] stdin 数据: {"session_id":"2036702202711355392","transcript_path":"/root/.codebuddy/projects/workspace/2036702202711355392.jsonl","cwd":"/workspace","hook_event_name":"PreToolUse","tool_name":"Skill","tool_input":{"skill":"ui-ux-pro-max","args":"设计一个AI招聘ATS系统官网，风格要求科技感、专业、现代，参考类似Moka招聘系统的页面结构。主色调使用深色背景+蓝紫色渐变，体现AI科技感。目标用户是企业HR，需要体现B2B SaaS的专业性。"},"client":"CLI","version":"2.63.4","generation_id":"1f21376946214539b677143ebac71120","model":"glm-5.0"}
+[2026-03-25 15:11:16] [INFO] [PPT Setup] skill: ui-ux-pro-max
+[2026-03-25 15:11:16] [INFO] [PPT Setup] 跳过: skill 是 "ui-ux-pro-max"，不是 "ppt-implement"

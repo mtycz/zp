@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "project_name": "飞鼠AI招聘助手",
+    "source_mode": "requirements",
+    "style": "tech-modern"
+  },
+  "colors": {
+    "primary": "#2563EB",
+    "primary_dark": "#1D4ED8",
+    "secondary": "#3B82F6",
+    "accent": "#8B5CF6",
+    "accent_light": "#A78BFA",
+    "cta": "#F97316",
+    "background": "#0A0A1A",
+    "background_light": "#0F1629",
+    "surface": "#1A1F36",
+    "surface_light": "#242B45",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#94A3B8",
+    "text_muted": "#64748B",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "border_light": "rgba(255, 255, 255, 0.2)"
+  },
+  "gradients": {
+    "hero_bg": "linear-gradient(180deg, #0A0A1A 0%, #0F1629 50%, #1A1F36 100%)",
+    "primary": "linear-gradient(135deg, #2563EB 0%, #8B5CF6 100%)",
+    "accent": "linear-gradient(135deg, #3B82F6 0%, #A78BFA 100%)",
+    "glow": "radial-gradient(circle at 70% 30%, rgba(37, 99, 235, 0.3) 0%, transparent 50%)",
+    "glow_secondary": "radial-gradient(circle at 30% 70%, rgba(139, 92, 246, 0.2) 0%, transparent 50%)",
+    "card_overlay": "linear-gradient(180deg, transparent 0%, rgba(10, 10, 26, 0.8) 100%)",
+    "button_hover": "linear-gradient(135deg, #3B82F6 0%, #A78BFA 100%)"
+  },
+  "typography": {
+    "font_primary": "Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, sans-serif",
+    "font_display": "Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, sans-serif",
+    "sizes": {
+      "hero": "72px",
+      "h1": "48px",
+      "h2": "36px",
+      "h3": "24px",
+      "h4": "20px",
+      "body_large": "18px",
+      "body": "16px",
+      "body_small": "14px",
+      "label": "12px"
+    },
+    "weights": {
+      "bold": 700,
+      "semibold": 600,
+      "medium": 500,
+      "normal": 400
+    }
+  },
+  "spacing": {
+    "unit": 4,
+    "scale": [4, 8, 12, 16, 24, 32, 48, 64, 80, 96, 128]
+  },
+  "border_radius": {
+    "sm": "6px",
+    "md": "12px",
+    "lg": "16px",
+    "xl": "24px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 2px 8px rgba(0, 0, 0, 0.2)",
+    "md": "0 4px 16px rgba(0, 0, 0, 0.3)",
+    "lg": "0 8px 32px rgba(0, 0, 0, 0.4)",
+    "glow_primary": "0 0 40px rgba(37, 99, 235, 0.4)",
+    "glow_accent": "0 0 40px rgba(139, 92, 246, 0.4)",
+    "card": "0 4px 24px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.1)"
+  },
+  "effects": {
+    "glass": {
+      "background": "rgba(26, 31, 54, 0.8)",
+      "backdrop_blur": "12px",
+      "border": "1px solid rgba(255, 255, 255, 0.1)"
+    },
+    "blur": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "16px"
+    }
+  },
+  "transitions": {
+    "fast": "all 0.15s ease",
+    "normal": "all 0.25s ease",
+    "slow": "all 0.4s ease",
+    "spring": "all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)"
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "background": "gradient:hero_bg",
+      "text_color": "#FFFFFF",
+      "special_effects": ["glow", "particles", "grid"]
+    },
+    {
+      "name": "Pain Points",
+      "background": "#0F1629",
+      "text_color": "#FFFFFF",
+      "card_style": "glass"
+    },
+    {
+      "name": "Features",
+      "background": "#0A0A1A",
+      "text_color": "#FFFFFF",
+      "card_style": "glass"
+    },
+    {
+      "name": "Process",
+      "background": "#0F1629",
+      "text_color": "#FFFFFF"
+    },
+    {
+      "name": "CTA",
+      "background": "gradient:primary",
+      "text_color": "#FFFFFF"
+    }
+  ]
+}
